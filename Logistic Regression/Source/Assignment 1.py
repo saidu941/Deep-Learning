@@ -6,7 +6,7 @@ Created on Thu Nov  2 18:54:17 2017
 @author: saidu941
 """
 
-""" Simple linear regression example in TensorFlow
+""" Simple logistic regression example in TensorFlow
 This program tries to predict the number of thefts from 
 the number of fire in the city of Chicago
 """

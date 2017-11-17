@@ -1,10 +1,5 @@
 **This code belongs to the "Implementing a CNN for Text Classification in Tensorflow"**
 
-## Team15:
-1. Yeruva, Vijaya Kumari
-2. Junaid, Sidrah
-3. Goudarzvand, Saria
-
 ## Requirements
 
 - Python 3.4.3

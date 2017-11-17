@@ -12,8 +12,8 @@ from tensorflow.contrib import learn
 # ==================================================
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
-#tf.flags.DEFINE_string("positive_data_file", "./data/rt-polaritydata/rt-polarity.pos", "Data source for the positive data.")
-#tf.flags.DEFINE_string("negative_data_file", "./data/rt-polaritydata/rt-polarity.neg", "Data source for the negative data.")
+#tf.flags.DEFINE_string("positive_data_file", "./data/data1.txt", "Data source for the positive data.")
+#tf.flags.DEFINE_string("negative_data_file", "./data/data2.txt", "Data source for the negative data.")
 tf.flags.DEFINE_string("positive_data_file", "./data/ICP_data/fashion_7000.txt", "Data source for the positive data.")
 tf.flags.DEFINE_string("negative_data_file", "./data/ICP_data/finance_7000.txt", "Data source for the positive data.")
 
@@ -64,7 +64,7 @@ y_shuffled = y[shuffle_indices]
 
 # Split train/test set
 # TODO: This is very crude, should use cross-validation
-dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))k
+dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))
 x_train, x_dev = x_shuffled[:dev_sample_index], x_shuffled[dev_sample_index:]
 y_train, y_dev = y_shuffled[:dev_sample_index], y_shuffled[dev_sample_index:]
 print("Vocabulary Size: {:d}".format(len(vocab_processor.vocabulary_)))

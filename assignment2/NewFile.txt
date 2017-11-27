@@ -1,0 +1,46 @@
+Python 3.6.2 |Anaconda, Inc.| (default, Sep 20 2017, 05:42:37)
+Type "copyright", "credits" or "license" for more information.
+
+IPython 6.1.0 -- An enhanced Interactive Python.
+
+runfile('/Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/train.py', args='./data/consumer_complaints.csv.zip ./parameters.json', wdir='/Users/bhavesh/Desktop/multi-class-text-classification-cnn-master')
+/Applications/anaconda/anaconda/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py:101: DtypeWarning: Columns (11) have mixed types. Specify dtype option on import or set low_memory=False.
+  exec(compile(f.read(), filename, 'exec'), namespace)
+INFO:root:The maximum length of all sentences: 912
+INFO:root:x_train: 54112, x_dev: 6013, x_test: 6681
+INFO:root:y_train: 54112, y_dev: 6013, y_test: 6681
+WARNING:tensorflow:From /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/train.py:73: all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Please use tf.global_variables instead.
+WARNING:tensorflow:From /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/train.py:73: all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Please use tf.global_variables instead.
+WARNING:tensorflow:From /Applications/anaconda/anaconda/lib/python3.6/site-packages/tensorflow/python/util/tf_should_use.py:175: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+WARNING:tensorflow:From /Applications/anaconda/anaconda/lib/python3.6/site-packages/tensorflow/python/util/tf_should_use.py:175: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+CRITICAL:root:Accuracy on dev set: 0.43971395310161315
+CRITICAL:root:Saved model at /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/trained_model_1511039640/checkpoints/model-200 at step 200
+CRITICAL:root:Best accuracy is 0.43971395310161315 at step 200
+CRITICAL:root:Accuracy on dev set: 0.5519707300848162
+CRITICAL:root:Saved model at /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/trained_model_1511039640/checkpoints/model-400 at step 400
+CRITICAL:root:Best accuracy is 0.5519707300848162 at step 400
+CRITICAL:root:Accuracy on dev set: 0.6449359720605355
+CRITICAL:root:Saved model at /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/trained_model_1511039640/checkpoints/model-600 at step 600
+CRITICAL:root:Best accuracy is 0.6449359720605355 at step 600
+CRITICAL:root:Accuracy on dev set: 0.6760352569432896
+CRITICAL:root:Saved model at /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/trained_model_1511039640/checkpoints/model-800 at step 800
+CRITICAL:root:Best accuracy is 0.6760352569432896 at step 800
+CRITICAL:root:Accuracy on dev set: 0.6933311159155163
+CRITICAL:root:Saved model at /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/trained_model_1511039640/checkpoints/model-1000 at step 1000
+CRITICAL:root:Best accuracy is 0.6933311159155163 at step 1000
+CRITICAL:root:Accuracy on dev set: 0.7139531016131715
+CRITICAL:root:Saved model at /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/trained_model_1511039640/checkpoints/model-1200 at step 1200
+CRITICAL:root:Best accuracy is 0.7139531016131715 at step 1200
+CRITICAL:root:Accuracy on dev set: 0.729918509895227
+CRITICAL:root:Saved model at /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/trained_model_1511039640/checkpoints/model-1400 at step 1400
+CRITICAL:root:Best accuracy is 0.729918509895227 at step 1400
+CRITICAL:root:Accuracy on test set is 0.7449483610237988 based on the best model /Users/bhavesh/Desktop/multi-class-text-classification-cnn-master/trained_model_1511039640/checkpoints/model-1400
+CRITICAL:root:The training is complete

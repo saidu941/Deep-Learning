@@ -12,10 +12,8 @@ import csv
 # Parameters
 # ==================================================
 # Data Parameters
-#tf.flags.DEFINE_string("positive_data_file", "./data/data1.txt", "Data source for the positive data.")
-#tf.flags.DEFINE_string("negative_data_file", "./data/data2.txt", "Data source for the positive data.")
-tf.flags.DEFINE_string("test file", "./data/ICP_data/fashion_7000.txt", "Data source for the positive data.")
-tf.flags.DEFINE_string("negative_data_file", "./data/ICP_data/finance_7000.txt", "Data source for the positive data.")
+tf.flags.DEFINE_string("test file", "./data/ICP_data/dataset_1.txt", "Data source for the positive data.")
+tf.flags.DEFINE_string("negative_data_file", "./data/ICP_data/dataset_2.txt", "Data source for the positive data.")
 
 # Eval Parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
